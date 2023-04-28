@@ -1,0 +1,14 @@
+<h2>Input a place name you want to visit, it will return the most popular place in the input place</h2>
+<form method="post" action="/prompt">
+    place: <input type="text" autocomplete="question" name="question" id="question"><br>
+    <input type="submit">
+</form>
+
+<% if (typeof answer !== 'undefined') { %>
+    <p><%= answer %></p>
+<% } %>
+
+<br>
+<a class="nav-link active" aria-current="page" href="/">Home</a>
+<br>
+<a class="nav-link" href="/prevDialog">Previous Dialog</a>
