@@ -1,1 +1,1 @@
-# CS103spr23_CA2
+# CA02 for COSI103A in Spring 2023 
